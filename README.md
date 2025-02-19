@@ -75,7 +75,35 @@ The strategy for parking spot assignment can be further optimized by implementin
 The system can be further optimized to handle more complex use cases, such as real-time tracking of vehicle locations or integration with IoT devices for automated parking.
 
 
+Flow Chart:
+(Start) --> [Display Main Menu]
+               |
+               v
+           [User Choice]
+               |
+        +------|-------+
+        |      |       |
+   [Choice 1] [Choice 2] [Choice 3]
+        |          |         |
+[Park Vehicle] [Remove Vehicle] [Display Available Spots]
+        |          |         |
+  [Check Spot] [Get Vehicle]  [Show Spots]
+    |  |    |   [Remove Vehicle]     |
+   [Yes] [No]  [Update Parking Lot]  |
+    |      |       |                 |
+[Park Vehicle]  [Vehicle Not Found]  |
+        |                    [Return to Menu]
+ [Update Parking Lot]                 |
+        |                       (Return to Menu)
+   [Return to Menu]
+        
+
+
+
+
+
 Conclusion:
 
 This parking lot system has been designed with simplicity, scalability, and extensibility in mind. By following solid object-oriented design principles and leveraging design patterns like Factory and Strategy, the system is modular and flexible. Concurrency is handled with appropriate synchronization mechanisms to ensure safe multi-user operations. The design allows for easy future enhancements, making it adaptable to evolving requirements.
+
 
