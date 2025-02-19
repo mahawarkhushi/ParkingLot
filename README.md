@@ -1,6 +1,6 @@
 # ParkingLot
 
-Parking Lot System Design
+#Parking Lot System Design
 Design Approach:
 1>    Class Design and SOLID Principles:
 
