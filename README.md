@@ -5,7 +5,7 @@ Design Approach:
 1>    Class Design and SOLID Principles:
 
 
-The system is designed to follow SOLID principles:  click
+The system is designed to follow SOLID principles: 
 Single Responsibility Principle (SRP): 
 Each class has a single responsibility. For example, the ParkingLot class handles the parking logic, while the Vehicle class stores vehicle details.
     
